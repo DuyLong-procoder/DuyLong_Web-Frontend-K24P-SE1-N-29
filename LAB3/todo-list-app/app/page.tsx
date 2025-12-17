@@ -20,7 +20,7 @@ export default function Home() {
   const isEmpty = newTask.trim().length === 0;
   const remainingCount = todos.filter((t) => !t.completed).length;
 
-  // Thêm todo
+ 
   const handleAddTodo = () => {
     const trimmed = newTask.trim();
     if (!trimmed) return;
@@ -35,7 +35,7 @@ export default function Home() {
     setNewTask("");
   };
 
-  // toggle
+ 
   const handleToggle = (id: number) => {
     setTodos((prev) =>
       prev.map((todo) =>
@@ -60,7 +60,7 @@ export default function Home() {
           Todo List (LAB 3)
         </h1>
 
-        {/* Input + Button */}
+     
         <div className="mb-4 flex gap-2">
           <Input
             placeholder="Add a task..."
@@ -83,14 +83,14 @@ export default function Home() {
           </Button>
         </div>
 
-        {/* Todo List Component */}
+    
         <TodoList
           todos={todos}
           onToggle={handleToggle}
           onRemove={handleRemove}
         />
 
-        {/* Footer */}
+   
         <div className="mt-4 flex items-center justify-between text-sm text-slate-600">
           <span>{remainingCount} tasks remaining</span>
 
