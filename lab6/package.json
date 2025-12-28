@@ -1,5 +1,5 @@
 {
-  "name": "lab5",
+  "name": "lab6",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@apollo/client": "^4.0.11",
+    "axios": "^1.13.2",
+    "graphql": "^16.12.0",
     "next": "16.0.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "react-router-dom": "^7.11.0"
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

@@ -1,10 +1,10 @@
 "use client";
 
-import Counter from "./components/Counter";
-import UserInput from "./components/UserInput";
-import Memoization from "./components/Memoization";
-import SumCalculation from "./components/SumCalculation";
-import SearchDebounce from "./components/SearchDebounce";
+import Counter from "../components/Counter";
+import UserInput from "../components/UserInput";
+import Memoization from "../components/Memoization";
+import SumCalculation from "../components/SumCalculation";
+import SearchDebounce from "../components/SearchDebounce";
 
 const HomePage = () => {
   return (

@@ -93,9 +93,7 @@ const SearchDebounce = () => {
         </div>
       )}
 
-      <p style={{ marginTop: 18, fontStyle: "italic", opacity: 0.7 }}>
-        Mở Console để xem khi nào hàm tìm kiếm được gọi
-      </p>
+  
     </section>
   );
 };
